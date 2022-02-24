@@ -6,7 +6,7 @@ import UIKit
 
 extension Resource {
     
-    public enum Font: Int, CaseIterable {
+    enum Font: Int, CaseIterable {
         
         case h1
         case h2

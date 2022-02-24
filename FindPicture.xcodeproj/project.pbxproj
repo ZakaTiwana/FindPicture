@@ -13,6 +13,9 @@
 		10C8073527C756A4006E6243 /* RouteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8073427C756A4006E6243 /* RouteManager.swift */; };
 		10C8073827C75CAB006E6243 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10C8073627C75CAB006E6243 /* Poppins-SemiBold.ttf */; };
 		10C8073927C75CAB006E6243 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10C8073727C75CAB006E6243 /* Poppins-Regular.ttf */; };
+		10C8073C27C760DE006E6243 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8073B27C760DE006E6243 /* BaseViewController.swift */; };
+		10C8073F27C76127006E6243 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C8073E27C76127006E6243 /* OnBoarding.storyboard */; };
+		10C8074127C76144006E6243 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8074027C76144006E6243 /* OnBoardingViewController.swift */; };
 		10F84A8627C12F8E0003EB29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F84A8527C12F8E0003EB29 /* AppDelegate.swift */; };
 		10F84A8827C12F8E0003EB29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F84A8727C12F8E0003EB29 /* SceneDelegate.swift */; };
 		10F84A8A27C12F8E0003EB29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F84A8927C12F8E0003EB29 /* ViewController.swift */; };
@@ -28,6 +31,9 @@
 		10C8073427C756A4006E6243 /* RouteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteManager.swift; sourceTree = "<group>"; };
 		10C8073627C75CAB006E6243 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		10C8073727C75CAB006E6243 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		10C8073B27C760DE006E6243 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		10C8073E27C76127006E6243 /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		10C8074027C76144006E6243 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		10F84A8227C12F8E0003EB29 /* FindPicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindPicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F84A8527C12F8E0003EB29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10F84A8727C12F8E0003EB29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +91,24 @@
 			path = Manager;
 			sourceTree = "<group>";
 		};
+		10C8073A27C760BA006E6243 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				10C8073D27C760FB006E6243 /* Onboarding */,
+				10C8073B27C760DE006E6243 /* BaseViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		10C8073D27C760FB006E6243 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				10C8073E27C76127006E6243 /* OnBoarding.storyboard */,
+				10C8074027C76144006E6243 /* OnBoardingViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		10F84A7927C12F8E0003EB29 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +128,7 @@
 		10F84A8427C12F8E0003EB29 /* FindPicture */ = {
 			isa = PBXGroup;
 			children = (
+				10C8073A27C760BA006E6243 /* Controllers */,
 				10C8073327C75687006E6243 /* Manager */,
 				10C8072C27C7528E006E6243 /* AppUtils */,
 				10C8072A27C751CA006E6243 /* Resources */,
@@ -180,6 +205,7 @@
 				10F84A8F27C12F900003EB29 /* Assets.xcassets in Resources */,
 				10F84A8D27C12F8E0003EB29 /* Main.storyboard in Resources */,
 				10C8073927C75CAB006E6243 /* Poppins-Regular.ttf in Resources */,
+				10C8073F27C76127006E6243 /* OnBoarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +220,9 @@
 				10F84A8A27C12F8E0003EB29 /* ViewController.swift in Sources */,
 				10F84A8627C12F8E0003EB29 /* AppDelegate.swift in Sources */,
 				10C8073127C752C4006E6243 /* Resources+Image.swift in Sources */,
+				10C8074127C76144006E6243 /* OnBoardingViewController.swift in Sources */,
 				10F84A8827C12F8E0003EB29 /* SceneDelegate.swift in Sources */,
+				10C8073C27C760DE006E6243 /* BaseViewController.swift in Sources */,
 				10C8073527C756A4006E6243 /* RouteManager.swift in Sources */,
 				10C8073227C752C4006E6243 /* Resources+Color.swift in Sources */,
 			);

@@ -6,7 +6,6 @@
 import UIKit
 
 enum Resource {
-    
     enum Color: Int, CaseIterable {
         case primary
         case secondary

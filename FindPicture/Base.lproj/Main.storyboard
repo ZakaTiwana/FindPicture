@@ -11,6 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FindPicture" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -18,10 +19,22 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <segue destination="SmB-QK-rmi" kind="show" id="4SQ-V1-c2c"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19" y="108"/>
+            <point key="canvasLocation" x="-245" y="43"/>
+        </scene>
+        <!--OnBoarding-->
+        <scene sceneID="7BF-J7-adK">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="OnBoardingViewController" storyboardName="OnBoarding" id="SmB-QK-rmi" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="EPz-pU-Tv2"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MvI-xO-IoD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="402" y="112"/>
         </scene>
     </scenes>
     <resources>
