@@ -27,15 +27,18 @@
 		1833658D27C77D9D00DD27D8 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1833657A27C77D9C00DD27D8 /* Poppins-ExtraBoldItalic.ttf */; };
 		1833658E27C77D9D00DD27D8 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1833657B27C77D9C00DD27D8 /* Poppins-Regular.ttf */; };
 		1833658F27C77D9D00DD27D8 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1833657C27C77D9C00DD27D8 /* Poppins-LightItalic.ttf */; };
-		1833659027C77D9D00DD27D8 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1833657D27C77D9D00DD27D8 /* Poppins-Thin.ttf */; };
 		1833659127C77D9D00DD27D8 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1833657E27C77D9D00DD27D8 /* Poppins-Black.ttf */; };
 		1833659227C77D9D00DD27D8 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1833657F27C77D9D00DD27D8 /* Poppins-ExtraLightItalic.ttf */; };
 		1833659327C77D9D00DD27D8 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1833658027C77D9D00DD27D8 /* Poppins-BlackItalic.ttf */; };
 		1833659A27C7A3C200DD27D8 /* Resource+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833659927C7A3C200DD27D8 /* Resource+Color.swift */; };
 		1833659C27C7A64900DD27D8 /* Resource+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833659B27C7A64900DD27D8 /* Resource+Font.swift */; };
 		1833659E27C7A6B500DD27D8 /* Resource+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833659D27C7A6B500DD27D8 /* Resource+Image.swift */; };
-		183365A027C7A8F500DD27D8 /* tick.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1833659F27C7A8F500DD27D8 /* tick.svg */; };
 		183365A227C7A97100DD27D8 /* RouteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183365A127C7A97100DD27D8 /* RouteManager.swift */; };
+		183365A727C7B30A00DD27D8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183365A627C7B30A00DD27D8 /* BaseViewController.swift */; };
+		183365AA27C7B36100DD27D8 /* onBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183365A927C7B36100DD27D8 /* onBoarding.storyboard */; };
+		183365AC27C7B37E00DD27D8 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183365AB27C7B37E00DD27D8 /* OnBoardingViewController.swift */; };
+		183365B027C8B0AD00DD27D8 /* CarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183365AF27C8B0AD00DD27D8 /* CarouselCell.swift */; };
+		183365B227C8B45400DD27D8 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183365B127C8B45400DD27D8 /* CarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,15 +64,19 @@
 		1833657A27C77D9C00DD27D8 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		1833657B27C77D9C00DD27D8 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../../../../Downloads/Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		1833657C27C77D9C00DD27D8 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
-		1833657D27C77D9D00DD27D8 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		1833657E27C77D9D00DD27D8 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
 		1833657F27C77D9D00DD27D8 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		1833658027C77D9D00DD27D8 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
 		1833659927C7A3C200DD27D8 /* Resource+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resource+Color.swift"; sourceTree = "<group>"; };
 		1833659B27C7A64900DD27D8 /* Resource+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resource+Font.swift"; sourceTree = "<group>"; };
 		1833659D27C7A6B500DD27D8 /* Resource+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resource+Image.swift"; sourceTree = "<group>"; };
-		1833659F27C7A8F500DD27D8 /* tick.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tick.svg; sourceTree = "<group>"; };
 		183365A127C7A97100DD27D8 /* RouteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteManager.swift; sourceTree = "<group>"; };
+		183365A627C7B30A00DD27D8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		183365A927C7B36100DD27D8 /* onBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = onBoarding.storyboard; sourceTree = "<group>"; };
+		183365AB27C7B37E00DD27D8 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		183365AD27C8A3B800DD27D8 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		183365AF27C8B0AD00DD27D8 /* CarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCell.swift; sourceTree = "<group>"; };
+		183365B127C8B45400DD27D8 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +109,8 @@
 		10F84A8427C12F8E0003EB29 /* FindPicture */ = {
 			isa = PBXGroup;
 			children = (
-				183365A327C7A9A500DD27D8 /* ViewControllers */,
+				183365AE27C8B07D00DD27D8 /* CarouselView */,
+				183365A327C7A9A500DD27D8 /* Controllers */,
 				1833659627C790EA00DD27D8 /* Manager */,
 				1833659427C790BD00DD27D8 /* AppUtils */,
 				10F84A8527C12F8E0003EB29 /* AppDelegate.swift */,
@@ -110,7 +118,6 @@
 				10F84A8927C12F8E0003EB29 /* ViewController.swift */,
 				10F84A8B27C12F8E0003EB29 /* Main.storyboard */,
 				10F84A8E27C12F900003EB29 /* Assets.xcassets */,
-				1833659F27C7A8F500DD27D8 /* tick.svg */,
 				1833656927C76DE300DD27D8 /* Fonts */,
 				10F84A9027C12F900003EB29 /* LaunchScreen.storyboard */,
 				10F84A9327C12F900003EB29 /* Info.plist */,
@@ -130,6 +137,7 @@
 				1833657527C77D9C00DD27D8 /* Poppins-ExtraLight.ttf */,
 				1833657F27C77D9D00DD27D8 /* Poppins-ExtraLightItalic.ttf */,
 				1833657127C77D9B00DD27D8 /* Poppins-Italic.ttf */,
+				183365AD27C8A3B800DD27D8 /* Poppins-Thin.ttf */,
 				1833656E27C77D9B00DD27D8 /* Poppins-Light.ttf */,
 				1833657C27C77D9C00DD27D8 /* Poppins-LightItalic.ttf */,
 				1833657627C77D9C00DD27D8 /* Poppins-Medium.ttf */,
@@ -137,7 +145,6 @@
 				1833657B27C77D9C00DD27D8 /* Poppins-Regular.ttf */,
 				1833657927C77D9C00DD27D8 /* Poppins-SemiBold.ttf */,
 				1833657727C77D9C00DD27D8 /* Poppins-SemiBoldItalic.ttf */,
-				1833657D27C77D9D00DD27D8 /* Poppins-Thin.ttf */,
 				1833657827C77D9C00DD27D8 /* Poppins-ThinItalic.ttf */,
 			);
 			path = Fonts;
@@ -161,11 +168,31 @@
 			path = Manager;
 			sourceTree = "<group>";
 		};
-		183365A327C7A9A500DD27D8 /* ViewControllers */ = {
+		183365A327C7A9A500DD27D8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				183365A827C7B33A00DD27D8 /* onBoarding */,
+				183365A627C7B30A00DD27D8 /* BaseViewController.swift */,
 			);
-			path = ViewControllers;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		183365A827C7B33A00DD27D8 /* onBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				183365A927C7B36100DD27D8 /* onBoarding.storyboard */,
+				183365AB27C7B37E00DD27D8 /* OnBoardingViewController.swift */,
+			);
+			path = onBoarding;
+			sourceTree = "<group>";
+		};
+		183365AE27C8B07D00DD27D8 /* CarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				183365AF27C8B0AD00DD27D8 /* CarouselCell.swift */,
+				183365B127C8B45400DD27D8 /* CarouselView.swift */,
+			);
+			path = CarouselView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +256,6 @@
 				10F84A9227C12F900003EB29 /* LaunchScreen.storyboard in Resources */,
 				1833658B27C77D9D00DD27D8 /* Poppins-ThinItalic.ttf in Resources */,
 				1833658927C77D9D00DD27D8 /* Poppins-Medium.ttf in Resources */,
-				183365A027C7A8F500DD27D8 /* tick.svg in Resources */,
 				1833659327C77D9D00DD27D8 /* Poppins-BlackItalic.ttf in Resources */,
 				1833658127C77D9D00DD27D8 /* Poppins-Light.ttf in Resources */,
 				1833658727C77D9D00DD27D8 /* Poppins-BoldItalic.ttf in Resources */,
@@ -238,11 +264,11 @@
 				1833658427C77D9D00DD27D8 /* Poppins-Italic.ttf in Resources */,
 				1833658327C77D9D00DD27D8 /* Poppins-Bold.ttf in Resources */,
 				10F84A8F27C12F900003EB29 /* Assets.xcassets in Resources */,
+				183365AA27C7B36100DD27D8 /* onBoarding.storyboard in Resources */,
 				1833658F27C77D9D00DD27D8 /* Poppins-LightItalic.ttf in Resources */,
 				1833658527C77D9D00DD27D8 /* Poppins-ExtraBold.ttf in Resources */,
 				1833658D27C77D9D00DD27D8 /* Poppins-ExtraBoldItalic.ttf in Resources */,
 				10F84A8D27C12F8E0003EB29 /* Main.storyboard in Resources */,
-				1833659027C77D9D00DD27D8 /* Poppins-Thin.ttf in Resources */,
 				1833659227C77D9D00DD27D8 /* Poppins-ExtraLightItalic.ttf in Resources */,
 				1833658227C77D9D00DD27D8 /* Poppins-MediumItalic.ttf in Resources */,
 				1833658827C77D9D00DD27D8 /* Poppins-ExtraLight.ttf in Resources */,
@@ -260,11 +286,15 @@
 			files = (
 				10F84A8A27C12F8E0003EB29 /* ViewController.swift in Sources */,
 				1833659A27C7A3C200DD27D8 /* Resource+Color.swift in Sources */,
+				183365B227C8B45400DD27D8 /* CarouselView.swift in Sources */,
 				10F84A8627C12F8E0003EB29 /* AppDelegate.swift in Sources */,
 				183365A227C7A97100DD27D8 /* RouteManager.swift in Sources */,
 				10F84A8827C12F8E0003EB29 /* SceneDelegate.swift in Sources */,
+				183365A727C7B30A00DD27D8 /* BaseViewController.swift in Sources */,
+				183365AC27C7B37E00DD27D8 /* OnBoardingViewController.swift in Sources */,
 				1833659C27C7A64900DD27D8 /* Resource+Font.swift in Sources */,
 				1833659E27C7A6B500DD27D8 /* Resource+Image.swift in Sources */,
+				183365B027C8B0AD00DD27D8 /* CarouselCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
